@@ -1,0 +1,52 @@
+.wite {
+	display: flex;
+	width: 500px;
+	height: 380px;
+	border: 3mm ridge rgb(121, 121, 121);
+	align-items: center;
+	justify-content: center;
+}
+.red {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: brown;
+}
+.gr {
+	display: flex;
+	width: 500px;
+	height: 500px;
+	background: rgb(233,220,13);
+    background: radial-gradient(circle at 30% 100%, rgba(233,220,13,1) 19%, rgba(203,7,34,1) 57%, rgba(29,0,255,1) 88%);
+    border-radius: 30%;
+	align-items: center;
+	justify-content: center;
+}
+.bor {
+	width: 350px;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 10mm ridge rgb(255, 255, 255);
+	border-radius: 30%;
+}
+.fo {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 10mm ridge rgb(255, 255, 255);
+	border-radius: 50%;
+}
+.top {
+	position: relative;
+	top: -130px;
+	left: 130px;
+	width: 1px;
+	height: 1px;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+	border: 5mm ridge rgb(255, 255, 255);
+}
